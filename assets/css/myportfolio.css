@@ -7,7 +7,7 @@
   }
 
   .body {
-    background-image: url("https://w.wallha.com/ws/8/Lj8lXcAJ.png");
+    background-color: #333333;
     background-size: cover;
     background-position: center;
   }
@@ -67,7 +67,7 @@
   section.container {
     margin-top: 100px;
     border-radius: 5px;
-    background-color:  #795e5e;
+    background-color:  #0a0a0a;
     padding: 20px;
   }
 
@@ -92,7 +92,7 @@
   
   .footer {
     position: fixed;
-    background-color: #333333;
+    background-color: #050505;
     width: 100%;
     bottom: 0px;
   }
