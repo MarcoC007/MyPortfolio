@@ -16,60 +16,58 @@
 
 
 </head>
-
 <body>
- 
-
-    <nav class="navigation">
-        <div class="row">
-        <div class="col-lg-4">
-        <div class='nav-img'>
-        <!-- <img src="assets/images/me.png" class='img'> -->
-        <h3 class="nav-text">My Portfolio</h3>
-        </div>
-
-        <div class="col-lg-8" id="nav-links">
-              <div class="buttons">
-                <a href="index.html"><button class="btn-no-style">Home</button></a>
-              
-              
-                <a href="portfolio.html"><button class="btn-no-style">Portfolio</button></labe></a>
-              
-              
-                <a href="contact.html"><button class="btn-no-style">Contact</button></a>
-              </div>
-          </div>
-        </div>
-    </nav>
-
-
     <main>
-         
-        <div class="container">
-        <header>
-            <h2>About Me</h2>
-        </header>
+        <nav class="navigation">
+            <div class="row">
+            <div class="col-lg-4">
+            <div class='nav-img'>
+            <!-- <img src="assets/images/me.png" class='img'> -->
+            <h3 class="nav-text">My Portfolio</h3>
+            </div>
+    
+            <div class="col-lg-8" id="nav-links">
+                  <div class="buttons">
+                    <a href="index.html"><button class="btn-no-style">Home</button></a>
+                  
+                  
+                    <a href="portfolio.html"><button class="btn-no-style">Portfolio</button></labe></a>
+                  
+                  
+                    <a href="contact.html"><button class="btn-no-style">Contact</button></a>
+                  </div>
+              </div>
+            </div>
+        </nav>
 
-        <div class="row">
-            
-        <div class="col-4">
-            <img src="https://user-images.githubusercontent.com/72709524/115162735-1ccfdd80-a073-11eb-96b0-7a25d82f0999.jpg" class="img-thumbnail">
-        </div>
-
-        <div class="col-8">
-            <p class="paragraph">
-                My name is Marco Estrada and I am 27 years old, I have grown up and raised in Guatemala, I moved to New
-              York 4 years ago and for 2 years I have been living in Morrisville, PA. I am currently working in a
-              restaurant and my hobbies are watching sports games, reading books, drawing and especially learning about
-              programming and that is why I have started to follow the coding path.
-            </p>
-        </div>
-         
-        <div class="row" id="main-btn">
-            <button class="main-btn" type="submit"><a href="portfolio.html"><label>Enter</label></a></button>
-        </div>
-        </div>
-        </div>
+        <section class="container" id="content">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+      
+              <!--Start of Facebook icon-->
+      <a href="https://www.facebook.com/profile.php?id=100062443701454&sk=about" class="fa fa-facebook square"></a>
+      <!--End of Facebook icon-->
+      
+      <!--Start of Instagram Icon-->
+      <a href="https://www.instagram.com/" class="fa fa-instagram square"></a>
+      <!--End of Instagram Icon-->
+      
+      <!--Start of Linkedin Icon-->
+      <a href="https://www.linkedin.com/in/marco-estrada-4748b51b2/" class="fa fa-linkedin square"></a>
+          
+            </form>
+          </section>
 
     </main>
 
@@ -90,16 +88,16 @@
                       <!--This is a Row with a bunch of links inside 2.1 Row-->
                       <div class="row" id="footer-links">
                         <div class="col-sm-3">
-                          <a href="https://github.com/MarcoC007/MyPortfolio"><label>Github</label></a>
+                          <a href="https://github.com/MarcoC007/MyPortfolio">Github</a>
                         </div>
                         <div class="col-sm-3">
-                          <a href="index.html"><label>Home</label></a>
+                          <a href="index.html">About</a>
                         </div>
                         <div class="col-sm-3">
-                          <a href="portfolio.html"><label>Portfolio</label></a>
+                          <a href="portfolio.html">Portfolio</a>
                         </div>
                         <div class="col-sm-3">
-                          <a href="contact.html"><label>Info</labe></a>
+                          <a href="contact.html">Info</a>
                         </div>
                       </div>
                     </div>
@@ -131,5 +129,5 @@
     
         </div>
       </footer>
-   
 </body>
+</html>
